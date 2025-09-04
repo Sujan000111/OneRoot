@@ -18,7 +18,8 @@
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
         }
-      }
+      },
+      "bundleIdentifier": "com.oneroot.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,6 +28,7 @@
       },
       "edgeToEdgeEnabled": true,
       "usesCleartextTraffic": true,
+      "package": "com.oneroot.app",
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"
@@ -36,7 +38,10 @@
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "BACKEND_URL": "https://oneroot-1.onrender.com"
+      "BACKEND_URL": "https://oneroot-1.onrender.com",
+      "eas": {
+        "projectId": "35329111-abc1-41fa-b616-ffc6f736f521"
+      }
     }
   }
 }
